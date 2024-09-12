@@ -1,3 +1,5 @@
+// 하단 우측에 뭐넣을지 생각해보기
+
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -82,7 +84,7 @@ public class BookRent extends JPanel {
 	    table.setPreferredScrollableViewportSize(new Dimension(470,200));
 	    add(table);
 	    JScrollPane sp=new JScrollPane(table);
-	    sp.setBounds(10, 40, 460, 250);
+	    sp.setBounds(10, 40, 280, 360);
 	    add(sp);  
 	    
 	    
